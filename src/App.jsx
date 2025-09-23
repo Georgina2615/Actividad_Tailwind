@@ -11,7 +11,7 @@ function App() {
           id="inicio"
           className="mb-10 text-center bg-white p-6 rounded-lg shadow-md"
         >
-          <h1 className="text-4xl font-extrabold text-pink-700 mb-4">
+          <h1 className="text-4xl font-extrabold text-rose-700 mb-4">
             Bienvenidas al salón AG Beauty Room
           </h1>
           <p className="text-xl text-gray-600 mb-2">

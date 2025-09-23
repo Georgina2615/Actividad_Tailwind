@@ -1,5 +1,3 @@
-import React from "react";
-
 const NavbarDashboard = () => {
   return (
     <nav className="w-55 min-h-screen bg-pink-50 shadow-md p-10 flex flex-col">
