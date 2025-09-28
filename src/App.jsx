@@ -1,5 +1,5 @@
-import React from "react";
 import NavbarDashboard from "./components/NavbarDashboard.jsx";
+import EmpleadoCard from "./components/EmpleadoCard.jsx";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
           id="inicio"
           className="mb-10 text-center bg-white p-6 rounded-lg shadow-md"
         >
-          <h1 className="text-4xl font-extrabold text-rose-700 mb-4">
+          <h1 className="text-4xl font-extrabold text-pink-700 mb-4">
             Bienvenidas al salón AG Beauty Room
           </h1>
           <p className="text-xl text-gray-600 mb-2">
@@ -73,19 +73,10 @@ function App() {
             <p className="text-center text-gray-600 mb-6">
               Descubre la calidad y el arte en cada uno de nuestros servicios. ¡La belleza está en los detalles!
             </p>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              <div className="w-full h-32 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
-                Imagen 1
-              </div>
-              <div className="w-full h-32 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
-                Imagen 2
-              </div>
-              <div className="w-full h-32 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
-                Imagen 3
-              </div>
-              <div className="w-full h-32 bg-gray-200 rounded-lg flex items-center justify-center text-gray-500">
-                Imagen 4
-              </div>
+            <div>
+            <EmpleadoCard nombre="Eve" cargo="Manicura" edad="21"/>
+            <EmpleadoCard nombre="Amy" cargo="Manicura" edad="32"/>
+            <EmpleadoCard nombre="Joe" cargo="Manicura" edad="20"/>
             </div>
           </div>
         </section>
