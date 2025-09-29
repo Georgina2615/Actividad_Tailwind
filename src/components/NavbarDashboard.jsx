@@ -10,7 +10,7 @@ const NavbarDashboard = () => {
           <a href="#servicios"className="block hover:text-pink-700 font-semibold">Servicios</a>
         </li>
         <li>
-          <a href="#galeria"className="block hover:text-pink-700 font-semibold">Galería</a>
+          <a href="#Equipo"className="block hover:text-pink-700 font-semibold">Equipo</a>
         </li>
         <li>
           <a href="#contacto"className="block hover:text-pink-700 font-semibold">Contacto</a>

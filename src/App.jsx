@@ -18,12 +18,15 @@ function App() {
           <p className="text-xl text-gray-600 mb-2">Tu oasis de belleza y relajación</p>
           <p className="text-lg text-gray-500"> Horario de atención: 9:00 AM - 9:00 PM, de lunes a sábado.</p>
         </section>
-        <div>
-          {empleadosDemo.map (emp => 
-            <EmpleadoCard key={emp.id} nombre={emp.nombre} cargo={emp.cargo} edad={emp.edad}/>
-          )}
-        </div>
 
+        <section id="equipo" className="mb-10">
+          <div className="bg-white p-8 rounded-lg shadow-md">
+            <h2 className="text-4xl font-bold text-center text-pink-700 mb-6">Nuestro Equipo</h2>
+           {empleadosDemo.map (emp => 
+            <EmpleadoCard key={emp.id} nombre={emp.nombre} cargo={emp.cargo} edad={emp.edad}/>
+           )}
+         </div>
+        </section>
       </main>
     </div>
   );
